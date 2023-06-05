@@ -1,0 +1,27 @@
+{
+    "shodan_api_key": "YOUR_SHODAN_API_KEY",
+    "google_api_key": "YOUR_GOOGLE_API_KEY",
+    "google_cse_id": "YOUR_GOOGLE_CSE_ID",
+    "fuzz_wordlist": "path/to/default/fuzz/wordlist.txt",
+    "alert": {
+        "email": {
+            "smtp_server": "SMTP_SERVER",
+            "smtp_port": 587,
+            "smtp_username": "SMTP_USERNAME",
+            "smtp_password": "SMTP_PASSWORD",
+            "from_email": "FROM_EMAIL",
+            "to_email": "TO_EMAIL"
+        },
+        "sms": {
+            "twilio_account_sid": "TWILIO_ACCOUNT_SID",
+            "twilio_auth_token": "TWILIO_AUTH_TOKEN",
+            "from_phone_number": "+1234567890",
+            "to_phone_number": "+0987654321"
+        }
+    },
+    "additional_settings": {
+        "setting_name_1": "setting_value_1",
+        "setting_name_2": "setting_value_2",
+        "setting_name_3": "setting_value_3"
+    }
+}
